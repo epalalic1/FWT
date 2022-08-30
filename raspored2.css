@@ -1,0 +1,142 @@
+
+
+#prva,td {
+	border: 1.5px solid grey;
+	border-collapse: collapse;
+	font-size: 20px;
+
+} 
+#prva, th, td {
+	padding: 15px;
+}
+#prva {
+	width: 5%;
+	background-color:#B2BEB5;
+	border-color: white;
+	margin-left: 150px;
+	margin-top: 7px
+}
+#prva td{
+	height: 75px;
+}
+#prva  {
+	text-align: center;
+}
+#prva td:nth-child(1) {
+	background-color: white;
+	border:none;
+
+
+}
+
+
+#prvi td:nth-child(even) {
+	border-right: dashed 2px grey;
+
+	
+}
+
+
+#prvi td:nth-child(4) {
+	border-right: none;
+	background-color:#BCD4E6;
+	
+
+}
+#prvi td:nth-child(5) {
+	border-right: dashed 2px grey;
+	background-color:#BCD4E6;
+	
+}
+#prvi td:nth-child(6) {
+	border-right: none;
+    
+
+}
+#prvi td:nth-child(7) {
+	background-color:#BCD4E6;	
+	
+}
+#prvi td:nth-child(11) {
+	border-right: dashed 2px grey;	
+	
+}
+
+
+
+#drugi td:nth-child(even) {
+	border-right: dashed 2px grey;
+	
+}
+#drugi td:nth-child(11) {
+	border-right: none;
+	background-color:#BCD4E6;
+	
+}
+#drugi td:nth-child(12) {
+	border-right:none;
+	background-color:#BCD4E6;	
+	
+}
+#drugi td:nth-child(13) {
+	border-right: dashed 2px grey;
+	background-color:#BCD4E6;
+	
+}
+
+#treci td:nth-child(even) {
+	border-right: dashed 2px grey;
+	
+}
+#treci td:nth-child(10) {
+	border-right: none;
+	background-color:#BCD4E6;
+	
+}
+#treci td:nth-child(11) {
+	background-color:#BCD4E6;
+}
+#treci td:nth-child(13) {
+	border-right: dashed 2px grey;
+}
+
+#cetvrti td:nth-child(even) {
+	border-right: dashed 2px grey;
+	
+}
+#cetvrti td:nth-child(23) {
+	border-right: dashed 2px grey;
+	
+}
+
+#peti td:nth-child(even){
+	border-right: dashed 2px grey;
+
+}
+#peti td:nth-child(23){
+	border-right: dashed 2px grey;
+
+}
+#vrijeme {
+	background-color: white;
+}
+#vrijeme td {
+	height: 5%;
+	font-size: 10px;
+	border:none;
+	overflow: hidden;
+	max-width: 7px;
+	text-align: left;
+}
+#vrijeme td:nth-child(4) {
+	text-align:left;
+}
+#vrijeme td:nth-child(7) {
+	text-align:left;
+
+}
+@media screen and (max-width: 600px) {
+
+	
+}	
+
